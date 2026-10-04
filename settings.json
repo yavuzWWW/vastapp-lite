@@ -1,0 +1,91 @@
+{
+    "application": {
+        "single_instance_guid": "7EBBD624-D66E-4972-BFF1-153D61E45B31",
+        "dpi_aware": true
+    },
+    "debugging": {
+        "show_console": false,
+        "subprocess_show_console": false,
+        "log_level": "ERROR",
+        "log_file": ""
+    },
+    "main_window": {
+        "title": "VastApp Lite by Vast Hosting",
+        "icon": "",
+        "default_size": [
+            1050,
+            740
+        ],
+        "minimum_size": [
+            700,
+            520
+        ],
+        "maximum_size": [
+            0,
+            0
+        ],
+        "disable_maximize_button": false,
+        "center_on_screen": true,
+        "start_maximized": false,
+        "start_fullscreen": false,
+        "always_on_top": false,
+        "minimize_to_tray": true,
+        "minimize_to_tray_message": "",
+        "save_position": true
+    },
+    "popup_window": {
+        "icon": "",
+        "fixed_title": "",
+        "center_relative_to_parent": true,
+        "default_size": [
+            900,
+            650
+        ]
+    },
+    "web_server": {
+        "listen_on": [
+            "127.0.0.1",
+            0
+        ],
+        "www_directory": "www",
+        "index_files": [
+            "main.html"
+        ],
+        "cgi_interpreter": "",
+        "cgi_extensions": [],
+        "cgi_temp_dir": "",
+        "404_handler": "",
+        "hide_files": []
+    },
+    "chrome": {
+        "log_file": "debug.log",
+        "log_severity": "disable",
+        "cache_path": "webcache",
+        "external_drag": true,
+        "external_navigation": true,
+        "reload_page_F5": true,
+        "devtools_F12": false,
+        "remote_debugging_port": -1,
+        "runtime_style": "alloy",
+        "command_line_switches": {
+            "force-dark-mode": "",
+            "no-first-run": "",
+            "disable-sync": "",
+            "disable-default-apps": "",
+            "disable-breakpad": "",
+            "disable-domain-reliability": "",
+            "disk-cache-size": "67108864",
+            "media-cache-size": "33554432",
+            "enable-media-stream": ""
+        },
+        "enable_downloads": true,
+        "context_menu": {
+            "enable_menu": true,
+            "navigation": false,
+            "print": false,
+            "view_source": false,
+            "open_in_external_browser": false,
+            "devtools": false
+        }
+    }
+}
