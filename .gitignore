@@ -1,0 +1,37 @@
+# VastApp Lite runtime/session data
+webcache/
+Cache/
+Code Cache/
+GPUCache/
+Service Worker/
+Session Storage/
+Local Storage/
+IndexedDB/
+Network/
+
+# Logs and crash data
+*.log
+*.dmp
+Crashpad/
+
+# Third-party PHP Desktop / CEF runtime binaries
+run.exe
+*.dll
+*.pak
+*.bin
+*.dat
+locales/
+vk_swiftshader_icd.json
+
+# Optional local build/output folders
+build/
+dist/
+release/
+*.zip
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
